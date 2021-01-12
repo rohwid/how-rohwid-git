@@ -1,6 +1,7 @@
-## Try Git
+# Try Git
 
 Just an example to explain the git merging and branching, pull request and issues. Here's the challenge:
+
 - **Init** git project
 - Add README.MD (Optional)
 - Create `story1.txt` then **add and commit**
@@ -20,3 +21,7 @@ Just an example to explain the git merging and branching, pull request and issue
 - **Switch** to the `writer1` branch
 - **Merge** the `writer1` branch into `master`
 - Push the `master` branch
+
+The expected output should be like the images below, you can access within **Insight** menu then select **Network**.
+
+![img](img/expected-network.png)
