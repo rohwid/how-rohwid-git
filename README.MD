@@ -12,11 +12,11 @@ Add all the files into the project:
 
     $ git add .
 
-But if you wanna undo or reset all the files that you've added just uses this command:
+(Optional) But if you wanna undo or reset all the files that you've added just uses this command:
 
     $ git reset .
 
-Or this, if you wanna reset or undo the specific file:
+(Optional) Or this, if you wanna reset or undo the specific file:
 
     $ git reset <name-of-the-file>
 
