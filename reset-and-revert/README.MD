@@ -26,26 +26,26 @@ For the `reset --hard`:
 
     $ git reset --hard <the hash of the last commit>
 
-- Now you need to push with force, after reset the local repository.
+- Now you need to push with force, after reset the local repository
 
     $ git push -f origin master
 
-- Check `git log`, the last will be disappear and check the commit history in the remote repository will be appear too.
+- Check `git log`, the last will be disappear and check the commit history in the remote repository will be appear too
 
 
 The kind of `reset` in git:
-- `--soft`: uncommit changes, changes are left staged (index).
-- `--mixed` (default): uncommit + unstage changes, changes are left in working tree.
-- `--hard`: uncommit + unstage + delete changes, nothing left.
+- `--soft`: uncommit changes, changes are left staged (index)
+- `--mixed` (default): uncommit + unstage changes, changes are left in working tree
+- `--hard`: uncommit + unstage + delete changes, nothing left
 
 
 For the **revert**:
 - Modify the `story1.txt` then **add and commit**
-- Check `git log`
+- Modify the `story2.txt` then **add and commit**
 - Revert with command:
 
-    $ git revert <the hash of the last commit>
+    $ git revert <the hash of second previous commit or "Modify story1.txt">
 
-- Push the project to the repository
-- Check `git log`
-- Push the `master` branch
+- Check the `git log`, now you will see the `stor1.txt` are reverted but not for the `story2.txt`
+- **Note**: It means revert is the undo process for the specific commit 
+- Push the project to the repository, it will be the same with commit
