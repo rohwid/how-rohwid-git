@@ -1,7 +1,8 @@
 # Try Git
 
-Just an example to explain the git merging and branching, pull request and issues. Here's the challenge:
+Just an example to explain the git **merging**, **branching**, **pull request**, and **issues**. Here's the challenge:
 
+- Use the story directory to became a repository
 - **Init** git project
 - Add README.MD (Optional)
 - Create `story1.txt` then **add and commit**
