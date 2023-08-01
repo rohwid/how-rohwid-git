@@ -38,6 +38,10 @@ If you already pushed it to git repository such as **GitHub**, **GitLab**, **Bit
 
       git push origin HEAD --force
 
+or
+
+      git push -f origin master
+
 **However**, if others may have pulled it, then you would be better off starting a new branch. Because when they pull, it will just merge it into their work, and you will get it pushed back up again.
 
 If you already pushed, it may be better to use `git revert`, to create a "mirror image" commit that will undo the changes. However, both commits will be in the log.
